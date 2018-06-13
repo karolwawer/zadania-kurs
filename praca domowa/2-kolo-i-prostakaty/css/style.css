@@ -1,0 +1,39 @@
+#main{
+    position:relative;
+    background-color: green;
+    border:2px solid white;
+    width:300px;
+    height: 300px;
+    margin:auto;
+}
+
+.square{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+
+#squar2, #squar4{
+       right: 0;
+}
+
+#squar3, #squar4{
+    bottom:0;
+}
+
+.circle{
+    position: relative;
+    border-radius: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+}
+
+#circ1, #circ2 {
+    margin-top:50%;
+}
+
+#circ1, #circ3{
+    margin-left:50%;
+}

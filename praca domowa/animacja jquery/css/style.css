@@ -1,0 +1,23 @@
+header.animation{
+    width: 80%;
+    position:relative;
+}
+header.animation button#animateOn{
+    width: 80px;
+    height: 30px;
+    color: mediumaquamarine;
+    margin-bottom: 15px;
+}
+
+header.animation #square {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin:auto;
+    position:absolute;
+    text-align: center;
+
+}
+header.animation #square h2 {
+    font-size: 1em;
+}

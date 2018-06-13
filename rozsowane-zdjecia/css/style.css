@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.column-1-4 {
+    width:25%;
+    height: 100vh;
+    display: inline-block;
+    float: left;
+    transition:all 0.4s;
+}
+.column-1-4:hover{
+    width: 40%;
+}
+.background{
+    height: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:130%;
+    
+}
+.container{
+    overflow: hidden;
+}
+.container:hover .column-1-4:not(:hover) {
+    width: 20%;
+}
+#background-1 {
+    background-image: url(../img/camaro.jpg);
+    
+}
+#background-2 {
+    background-image: url(../img/charger.jpg);
+}
+#background-3 {
+    background-image: url(../img/charger1.jpg)
+}
+#background-4 {
+    background-image: url(../img/mustang.jpg);
+}

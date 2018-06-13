@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="kalkulator">
+
+        <input type="text" id="ekran" class="operators" readonly>
+        <button class="btn del" id="clear" onclick="czysc()">Del</button>
+        <button class="btn operators" onclick="pobierz('%')">%</button>
+        <button class="btn operators" id="plus" onclick="pobierz('+')">+</button>
+        <button class="btn" onclick="pobierz(7)">7</button>
+        <button class="btn" onclick="pobierz(8)">8</button>
+        <button class="btn" onclick="pobierz(9)">9</button>
+        <button class="btn operators" onclick="pobierz('-')">-</button>
+        <button class="btn" onclick="pobierz(4)">4</button>
+        <button class="btn" onclick="pobierz(5)">5</button>
+        <button class="btn" onclick="pobierz(6)">6</button>
+        <button class="btn operators" onclick="pobierz('*')">*</button>
+        <button class="btn" onclick="pobierz(1)">1</button>
+        <button class="btn" onclick="pobierz(2)">2</button>
+        <button class="btn" onclick="pobierz(3)">3</button>
+        <button class="btn operators" onclick="pobierz('/')">/</button>
+        <button class="btn zero" onclick="pobierz(0)">0</button>
+        <button class="btn sign" onclick="pobierz('.')">.</button>
+        <button class="btn result" onclick="oblicz()">=</button>
+
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+div#counting {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    font-size: 100px;
+    background-color: black;
+    color: white;
+    line-height: 500px;
+}
+
+div.number {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+#ten,
+#nine,
+#eight,
+#seven,
+#six,
+#five,
+#four,
+#three,
+#two,
+#one,
+#finish {
+    visibility: hidden;
+}
+
+#ten {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+}
+
+#nine {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+}
+
+#eight {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+#seven {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+}
+
+#six {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+#five {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 5s;
+}
+
+#four {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+}
+
+#three {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 7s;
+}
+
+#two {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 8s;
+}
+
+#one {
+    animation: 1s showme;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+#finish {
+    animation: 1s hideme;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+    font-size: 70px;
+}
+
+@keyframes showme {
+    0% {
+        visibility: hidden;
+    }
+    99% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+
+}
+
+@keyframes hideme {
+    0% {
+        visibility: hidden;
+    }
+    100% {
+        visibility: visible;
+    }
+
+}

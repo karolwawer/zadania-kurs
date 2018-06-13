@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    padding: 0;
+}
+.akordian {
+
+    width: 800px;
+}
+.akordian .title {
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+p {
+    display: none;
+}

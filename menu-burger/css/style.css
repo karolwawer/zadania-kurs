@@ -1,0 +1,30 @@
+body{
+ height: 100vh;
+    margin:0;
+}
+
+#toggle {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+
+#main-nav {
+    width: 300px;
+    position:absolute;
+    top: 50px;
+    left: -300px;
+    background-color: aqua;
+    
+}
+
+#main-nav ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#main-nav ul li {
+    line-height: 30px;
+}
