@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    font-family: 'Kavivanar', cursive;
+}
+
+#main {
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+#main h1 {
+    color: darkblue;
+}
+
+#main p {
+    color: royalblue;
+}
+
+#main #form-main input {
+    margin: 10px;
+}
+
+#main #form-main select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    margin:10px 10px 10px 60px;
+}
+
+#main #form-main input[type="number"] {
+    width: 150px;
+}
+#main #form-main input[type="submit"] {
+    margin:5px 0;
+    
+}
+
+#main #form-main input[type="submit"]:hover {
+    border: 1px solid blue;
+}

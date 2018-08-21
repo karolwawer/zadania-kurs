@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>2-formularz-html5-adv</title>
+    <link href="https://fonts.googleapis.com/css?family=Kavivanar" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <h1>A Simple Form</h1>
+        <p>Form Fundamentals</p>
+
+        <div id="form-main">
+
+            <form action="https://formspree.io/karol.wawer.pl@gmail.com"
+      method="POST" autocomplete="on">
+                <fieldset id="customer">
+                    <legend>Customer Info</legend>
+                    <label for="name">Name: <input type="text" name="name" id="name" autofocus placeholder="Enter your name" required size="60"></label><br>
+
+                    <label for="tel">Tel :<input type="tel" name="tel" id="tel" placeholder="1-234-567-8910" pattern="^\d{1}-\d{3}-\d{3}-\d{4}$" required size="60"></label><br>
+
+                    <label for="mail">E-mail :<input type="email" name="mail" id="mail" placeholder="Enter your email adress" required size="60" multiple></label><br>
+
+                </fieldset>
+                <fieldset id="books">
+                    <legend>Books</legend>
+                    <select name="books" id="books-select">
+                        <option value="Opowieści z Narnii">Opowieści z Narnii</option>
+                        <option value="Hobbit">Hobbit</option>
+                        <option value="Władca Pierścieni">Władca Pierścieni</option>
+                        <option value="Trylogia Czarnego Maga">"Trylogia Czarnego Maga</option>
+                        <option value="Miecz Sprawiedliwości">Miecz Sprawiedliwości</option>
+                    </select>
+                    Quantity(Maximum 5) :<input type="number" name="quantity" min="1" max="5">
+
+                </fieldset>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

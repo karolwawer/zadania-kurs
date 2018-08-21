@@ -1,0 +1,37 @@
+@media all and (max-width: 2000px) {
+    #cart {
+        width: 80%;
+        padding: 0;
+        text-align: center;
+}
+    #cart .product {
+        width: 23%;
+    }
+    #cart .product:nth-child(n+2) {
+        margin-left: 2%;
+    }
+}
+
+@media all and (max-width: 992px) {
+    #cart .product {
+        width: 47%;
+    }
+    #cart .product:nth-child(n+2) {
+        margin-left: 0;
+    }
+    #cart .product:nth-child(even) {
+        margin-left: 2%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    #cart {
+        width: 100%;
+    }
+    #cart .product {
+        width: 96%;
+    }
+    #cart .product:nth-child(even) {
+        margin-left: 0;
+    }
+}

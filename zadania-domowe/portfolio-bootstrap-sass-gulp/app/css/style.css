@@ -1,0 +1,199 @@
+body {
+  font-family: 'Roboto Slab', serif;
+  color: #777; }
+
+/*helpers*/
+section h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+button,
+.btn {
+  background-color: #0ed8d6;
+  border: 1px solid #0ed8d6;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all 0.4s;
+  font-family: 'Montserrat', sans-serif; }
+  button:hover,
+  .btn:hover {
+    background-color: #fff;
+    color: #0ed8d6; }
+
+#main-nav {
+  background-color: transparent;
+  transition: all 0.4s;
+  font-family: 'Montserrat', sans-serif; }
+  #main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 0.48); }
+  #main-nav ul {
+    margin-left: auto;
+    text-align: right; }
+  #main-nav a {
+    color: white; }
+
+#main-header {
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh; }
+  #main-header #header-inner {
+    background-image: url(../img/header/pictures_on_the_wall.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh; }
+    #main-header #header-inner #header-mask {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: rgba(0, 0, 0, 0.2);
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center; }
+      #main-header #header-inner #header-mask #header-contest {
+        text-align: center;
+        color: white; }
+        #main-header #header-inner #header-mask #header-contest h3 {
+          font-size: 5vh;
+          font-style: italic; }
+        #main-header #header-inner #header-mask #header-contest h1 {
+          font-size: 10vh; }
+
+#services .fas {
+  color: #fff;
+  background-color: #0ed8d6;
+  border: 1px solid #0ed8d6;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+  transition: all 0.4s; }
+  #services .fas:hover {
+    transform: rotate(360deg);
+    background-color: white;
+    color: #0ed8d6; }
+  #services .fas h3 {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif; }
+  #services .fas p {
+    margin-bottom: 90px; }
+
+#portfolio {
+  background-color: #F7F7F7; }
+  #portfolio header {
+    padding: 20px; }
+  #portfolio .content {
+    background-color: white;
+    margin-bottom: 40px;
+    padding-bottom: 30px; }
+    #portfolio .content .overflow {
+      height: 300px;
+      overflow: hidden; }
+      #portfolio .content .overflow .background {
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: all 0.4s; }
+        #portfolio .content .overflow .background:hover {
+          transform: scale(1.5); }
+          #portfolio .content .overflow .background:hover .mask {
+            opacity: 1; }
+        #portfolio .content .overflow .background .mask {
+          background: rgba(14, 216, 214, 0.7);
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 30px;
+          color: #fff;
+          opacity: 0;
+          transition: all 0.4s; }
+
+#portfolio-img0 {
+  background-image: url(../img/portfolio/box_of_cookies.jpg); }
+
+#portfolio-img1 {
+  background-image: url(../img/portfolio/chaotic_paint.jpg); }
+
+#portfolio-img2 {
+  background-image: url(../img/portfolio/chestnut_on_bracket.jpg); }
+
+#portfolio-img3 {
+  background-image: url(../img/portfolio/child_with_blue_paint.jpg); }
+
+#portfolio-img4 {
+  background-image: url(../img/portfolio/house_with_blue_doors.jpg); }
+
+#portfolio-img5 {
+  background-image: url(../img/portfolio/typing_on_laptop.jpg); }
+
+#team figure img {
+  border-radius: 50%;
+  margin-bottom: 20px; }
+
+#team figure figcaption span {
+  font-weight: 700; }
+
+#team .media {
+  height: 100px;
+  align-items: center;
+  justify-content: center; }
+  #team .media .media-round {
+    border-radius: 50%;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    transition: all 0.4s; }
+    #team .media .media-round:hover {
+      transform: rotate(360deg);
+      background-color: #0ed8d6; }
+    #team .media .media-round a {
+      color: white;
+      font-size: 30px;
+      text-decoration: none; }
+
+#contact {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/footer/world-map.jpg); }
+  #contact header {
+    color: white;
+    padding: 20px; }
+  #contact .container-form {
+    padding: 30px 0; }
+    #contact .container-form textarea {
+      height: 162px; }
+  #contact button {
+    margin-top: 10px; }
+
+footer {
+  line-height: 100px; }
+  footer p {
+    font-weight: 600; }
+  footer .media {
+    height: 100px;
+    align-items: center;
+    justify-content: center; }
+    footer .media .media-round {
+      border-radius: 50%;
+      background-color: black;
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 5px;
+      transition: all 0.4s; }
+      footer .media .media-round:hover {
+        transform: rotate(360deg);
+        background-color: #0ed8d6; }
+      footer .media .media-round a {
+        color: white;
+        font-size: 30px;
+        text-decoration: none; }
